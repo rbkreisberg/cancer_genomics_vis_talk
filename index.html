@@ -75,6 +75,7 @@
 							<li>Regulome Explorer</li>
 							<li>Pubcrawl</li>
 							<li>Into the Future</li>
+						</ul>
 					</p>
 
 					<aside class="notes">
@@ -138,19 +139,19 @@
 					<p>
 						There are many methods being used in cancer research. In general, we see X types of approaches.
 						<ol>
-							<li class="fragment roll-in highlight-red">Statistical</li>
+							<li class="fragment roll-in">Statistical</li>
 							<li class="fragment roll-in">Matrix Decomposition</li>
 							<li class="fragment roll-in">Information Theoretic</li>
-							<li class="fragment roll-in highlight-red">Machine Learning</li>
+							<li class="fragment roll-in">Machine Learning</li>
 					</p>
 				</section>
 				<section>
 					<h2>Pairwise Analysis</h2>
 					<img src="images/feature_feature.png" height=300><br>
 					<ul>
-						<li>Continuous - Continuous: Fisher T Test</li>
+						<li>Continuous - Continuous: F Statistic</li>
 						<li>Continuous - Categorical: ANOVA</li>
-						<li>Categorical - Continuous: Fisher Exact Test</li>
+						<li>Categorical - Continuous: Fisher's Exact Test</li>
 						<li>Bonferroni correction applied</li>
 					<ul>
 				</section>
@@ -158,8 +159,8 @@
 <section>
 				<section>
 					<h2>Random Forest</h2>
-					An Ensemble Classifier of Decision Trees
-					<small>Brieman, 2001</small>
+					An Ensemble Classifier of Decision Trees<br>
+					<small>Breiman, Leo (2001). "Random Forests", <i>Machine Learning</i>, <b>45</b> (1):5-32.</small>
 				</section>
 				<section>
 <pre><code contenteditable style="font-size: 18px; ">var w = 450,
