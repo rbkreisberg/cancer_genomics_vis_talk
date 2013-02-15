@@ -104,13 +104,13 @@
 					It is a non-profit research institute dedicated to understanding biological complexity.
 					<br/>
 					<img class="fragment" src="images/isb/hood_obamaNMS.png">
-					<br/><br/><br/>
-					<small>
-						www.systemsbiology.org
-					</small>
+					<br/>
+					<br/>
+					<br/>
+					<small>www.systemsbiology.org</small>
 				</section>
 			</section>
-			
+
 			<article title="TCGA"></article>
 			<section>
 				<section>
@@ -207,220 +207,216 @@
 						There are many methods being used in cancer research. In general, we see X types of approaches.
 						<ol>
 							<li class="fragment roll-in">Statistical</li>
-							<!-- <li class="fragment roll-in">Matrix Decomposition</li> -->
-							<li class="fragment roll-in">Information Theoretic</li>
-							<li class="fragment roll-in">Machine Learning</li>
-						</ol>
-					</p>
-				</section>
-				<section>
-					<h3>Heterogeneous Feature Matrix</h3>
-					<img height=600 src="images/feature_matrix.png"></section>
-				<section>
-					<h2>Association Analysis</h2>
-					<img height = 600 src="images/feature_analysis.png"></section>
-				<section>
-					<h2>Pairwise Analysis</h2>
-					<img src="images/feature_feature.png" height=300>
-					<br>
-					<ul>
-						<li class="fragment">
-							Continuous - Continuous: F Statistic
-							<br/>
-							<small>RNAseq of BRCA2 -></small>
-						</li>
-						<li class="fragment">
-							Continuous - Categorical: ANOVA
-							<br/>
-							<small>miRNA hsa-mir-xxx -></small>
-						</li>
-						<li class="fragment">
-							Categorical - Categorical: Fisher's Exact Test
-							<br/>
-							<small>PAM50_call4 -></small>
-						</li>
-						<li class="fragment">Bonferroni correction applied</li>
-					</ul>
-				</section>
-				<section>
-					<h2>Pairwise Associations</h2>
-					Significantly associated features (according to corrected p-value) form a pair of connected nodes.
-				</section>
+							<!-- <li class="fragment roll-in">Matrix Decomposition</li>
+						-->
+						<li class="fragment roll-in">Information Theoretic</li>
+						<li class="fragment roll-in">Machine Learning</li>
+					</ol>
+				</p>
 			</section>
 			<section>
-				<section>
-					<h2>Random Forest</h2>
-					Decision Tree Ensemble Learning
-					<br>
-					<br/>
-					<br/>
-					RF-ACE: Random Forest with Artificial Contrast Ensembles
-					<br/>
-					<small>developed by Timo Erkkila</small>
-					<br/>
-					<small>http://rf-ace.googlecode.com</small>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<small>
-						Breiman, Leo (2001). "Random Forests", <i>Machine Learning</i>
-						, <b>45</b>
-						(1):5-32.
-					</small>
-					<small>
-						Tuv, Eugene, et al. "Feature selection with ensembles, artificial variables, and redundancy elimination." <i>The Journal of Machine Learning Research</i> <b>10</b>
-						(2009): 1341-1366.
-					</small>
-				</section>
-				<section>
-					<h2>A Decision Tree</h2>
-					<img width=1200 src="images/decision_tree.png"></section>
-				<section>
-					<h2>Randomness - Bootstrapping</h2>
-					<img src="images/bootstrap.png">
-					<br/>
-				</section>
-				<section>
-					<h2>Randomness - Bagging</h2>
-					<img src="images/bagging.png"></section>
-				<section>
-					<h2>A Forest of Voting Trees</h2>
-					<img height=600 src="images/random_forest.png"></section>
+				<h3>Heterogeneous Feature Matrix</h3>
+				<img height=600 src="images/feature_matrix.png"></section>
+			<section>
+				<h2>Association Analysis</h2>
+				<img height = 600 src="images/feature_analysis.png"></section>
+			<section>
+				<h2>Pairwise Analysis</h2>
+				<img src="images/feature_feature.png" height=300>
+				<br>
+				<ul>
+					<li class="fragment">
+						Continuous - Continuous: F Statistic
+						<br/>
+						<small>RNAseq of BRCA2 -></small>
+					</li>
+					<li class="fragment">
+						Continuous - Categorical: ANOVA
+						<br/>
+						<small>miRNA hsa-mir-xxx -></small>
+					</li>
+					<li class="fragment">
+						Categorical - Categorical: Fisher's Exact Test
+						<br/>
+						<small>PAM50_call4 -></small>
+					</li>
+					<li class="fragment">Bonferroni correction applied</li>
+				</ul>
 			</section>
 			<section>
-				<section>
-<<<<<<< HEAD
-					<h3>Multi-scale Association Explorer</h3>
-					<iframe frameborder="0" height="800" width="960" src="http://explorer.cancerregulome.org/all_pairs/index.html?dataset=brca_manuscript_rerun_nov12d_pw&t_type=CNVR&p_type=GEXP&trans=true"></iframe>
-=======
-					<h2>Multi-scale Association Explorer</h2>
-					A tool for exploring associations among genomic and non-genomic features.
->>>>>>> ba47d5a5c721d56059c981135faa0bc06392b60d
-				</section>
-				<section>
-					<h3>Edges Between Genomic Features</h3>
-					<iframe frameborder="0" height="800" width="900" src="http://explorer.cancerregulome.org/all_pairs/index.html?dataset=brca_manuscript_rerun_nov12d_pw&t_type=CNVR&p_type=GEXP&trans=true"></iframe>
-				</section>
-				<section>
-					<h3>Managing Scale</h3>
-				</section>
-				<section>
-					<h3>Edges With Non-Genomic Features</h3>
-				</section>
-				<section>
-					<h3>Analytical Integrity</h3>
-					(scatterplot, violinplot, cubbyhole)
-				</section>
+				<h2>Pairwise Associations</h2>
+				Significantly associated features (according to corrected p-value) form a pair of connected nodes.
+			</section>
+		</section>
+		<section>
+			<section>
+				<h2>Random Forest</h2>
+				Decision Tree Ensemble Learning
+				<br>
+				<br/>
+				<br/>
+				RF-ACE: Random Forest with Artificial Contrast Ensembles
+				<br/>
+				<small>developed by Timo Erkkila</small>
+				<br/>
+				<small>http://rf-ace.googlecode.com</small>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<small>
+					Breiman, Leo (2001). "Random Forests", <i>Machine Learning</i>
+					, <b>45</b>
+					(1):5-32.
+				</small>
+				<small>
+					Tuv, Eugene, et al. "Feature selection with ensembles, artificial variables, and redundancy elimination." <i>The Journal of Machine Learning Research</i> <b>10</b>
+					(2009): 1341-1366.
+				</small>
 			</section>
 			<section>
-				<section>
-					<h2>Colorectal Cancer Aggressiveness</h2>
-					A combined p-value approach to identifying molecular features associated with tumor aggresiveness.
-					<br/>
-					<small>Vesteinn Thorsson</small>
-				</section>
+				<h2>A Decision Tree</h2>
+				<img width=1200 src="images/decision_tree.png"></section>
+			<section>
+				<h2>Randomness - Bootstrapping</h2>
+				<img src="images/bootstrap.png">
+				<br/>
 			</section>
 			<section>
-				<section>
-					<h2>PubCrawl</h2>
-					Incorporating Semantic and Interaction Associations
-					<br/>
-					<small>Andrea Eakin, Brady Bernard</small>
-				</section>
-				<section>
-					<h3>Normalized Google Distance</h3>
-					A measure of semantic similarity.
-					<br/>
-					<img height="600" src="images/ngd/google_distance.png"></section>
-				<section>Protein Domain Interactions</section>
+				<h2>Randomness - Bagging</h2>
+				<img src="images/bagging.png"></section>
+			<section>
+				<h2>A Forest of Voting Trees</h2>
+				<img height=600 src="images/random_forest.png"></section>
+		</section>
+		<section>
+			<section>
+				<h2>Multi-scale Association Explorer</h2>
+				A tool for exploring associations among genomic and non-genomic features.
 			</section>
 			<section>
-				<section>
-					<h3>Challenges in (Interactive) Cancer Visualization</h3>
-					There are many challenges left!
-				</section>
-				<section>
-					<h3>Associations</h3>
-					<div class="fragment" style="text-align:left;">
-						Problems:
-						<br/>
-						Comparison and grouping of multiple cancer types (and subtypes) across all types of features
-						<br/>
-						Inclusion of functional, semantic, analytical and physical associations
-						<br/>
-						Highly connected (and confusing) networks
-					</div>
-					<br/>
-					<div class="fragment" style="text-align:left;">
-						Possible Solutions:
-						<br/>
-						Multigraphs
-						<br/>
-						Managed layout
-						<br/>
-						Automatic grouping based on scale
-						<br/>
-						Topological Data Analysis (identify the simplicial complexes)
-						<br/>
-						<br/>
-						<br/>
-						Lum, P. Y., et al. "Extracting insights from the shape of complex data using topology." Scientific Reports 3 (2013).
-					</div>
-				</section>
-				<section>
-					<h3>Scale</h3>
-					<div class="fragment" style="text-align:left;">
-						Problems:<br/>
-						Tying together information at many scales
-						<br/>
-						Protein -> Pathway -> Hallmark -> Tumor -> Patient
-						<br/><br/>
-						Portraying feature data per patient with thousands of samples across multiple cancer types
-						<br/><br/>
-						A seemingly endless number of interesting results
-					</div>
-					<br/>
-					<div class="fragment" style="text-align:left;">
-						Possible Solutions:
-						<br/>
-						???
-						<br/>
-						Collaborative tools that enable scientific effort to be distrbuted.<br/>
-					</div>
-				</section>
-				<section>
-					<h3>Interpretation</h3>
-					<div class="fragment" style="text-align:left;">
-						How best to convey the information to the cancer biologist?
-					</div>
-					<br>
-					<div class="fragment" style="text-align:left;">
-						Which visual abstractions are most useful to reason on?
-					</div>
-					<br/>
-					<div class="fragment" style="text-align:left;">
-						When is an exploratory tool called for?  When is it not called for?
-					</div>
-					</section>
+				<h3>Edges Between Genomic Features</h3>
+				<iframe frameborder="0" height="800" width="900" src="http://explorer.cancerregulome.org/all_pairs/index.html?dataset=brca_manuscript_rerun_nov12d_pw&t_type=CNVR&p_type=GEXP&trans=true"></iframe>
 			</section>
 			<section>
-				<section>
-					<h3>High-Throughput Computation</h3>
-					<img width=800 src="images/google_io1.jpg">
+				<h3>Managing Scale</h3>
+			</section>
+			<section>
+				<h3>Edges With Non-Genomic Features</h3>
+			</section>
+			<section>
+				<h3>Analytical Integrity</h3>
+				(scatterplot, violinplot, cubbyhole)
+			</section>
+		</section>
+		<section>
+			<section>
+				<h2>Colorectal Cancer Aggressiveness</h2>
+				A combined p-value approach to identifying molecular features associated with tumor aggresiveness.
+				<br/>
+				<small>Vesteinn Thorsson</small>
+			</section>
+		</section>
+		<section>
+			<section>
+				<h2>PubCrawl</h2>
+				Incorporating Semantic and Interaction Associations
+				<br/>
+				<small>Andrea Eakin, Brady Bernard</small>
+			</section>
+			<section>
+				<h3>Normalized Google Distance</h3>
+				A measure of semantic similarity.
+				<br/>
+				<img height="600" src="images/ngd/google_distance.png"></section>
+			<section>Protein Domain Interactions</section>
+		</section>
+		<section>
+			<section>
+				<h3>Challenges in (Interactive) Cancer Visualization</h3>
+				There are many challenges left!
+			</section>
+			<section>
+				<h3>Associations</h3>
+				<div class="fragment" style="text-align:left;">
+					Problems:
 					<br/>
-					600,000 cores running Random Forest on Google Compute Engine
-				</section>
-				<section>
-					<h3>The Center for Systems Analysis of the Cancer Regulome</h3>
-					Ilya Shmulevich (ISB) + Wei Zhang (MD Anderson Cancer Center)
-					<div style="height:500px">
-						<img style="position:absolute;
+					Comparison and grouping of multiple cancer types (and subtypes) across all types of features
+					<br/>
+					Inclusion of functional, semantic, analytical and physical associations
+					<br/>
+					Highly connected (and confusing) networks
+				</div>
+				<br/>
+				<div class="fragment" style="text-align:left;">
+					Possible Solutions:
+					<br/>
+					Multigraphs
+					<br/>
+					Managed layout
+					<br/>
+					Automatic grouping based on scale
+					<br/>
+					Topological Data Analysis (identify the simplicial complexes)
+					<br/>
+					<br/>
+					<br/>
+					Lum, P. Y., et al. "Extracting insights from the shape of complex data using topology." Scientific Reports 3 (2013).
+				</div>
+			</section>
+			<section>
+				<h3>Scale</h3>
+				<div class="fragment" style="text-align:left;">
+					Problems:
+					<br/>
+					Tying together information at many scales
+					<br/>
+					Protein -> Pathway -> Hallmark -> Tumor -> Patient
+					<br/>
+					<br/>
+					Portraying feature data per patient with thousands of samples across multiple cancer types
+					<br/>
+					<br/>
+					A seemingly endless number of interesting results
+				</div>
+				<br/>
+				<div class="fragment" style="text-align:left;">
+					Possible Solutions:
+					<br/>
+					???
+					<br/>
+					Collaborative tools that enable scientific effort to be distrbuted.
+					<br/>
+				</div>
+			</section>
+			<section>
+				<h3>Interpretation</h3>
+				<div class="fragment" style="text-align:left;">How best to convey the information to the cancer biologist?</div>
+				<br>
+				<div class="fragment" style="text-align:left;">Which visual abstractions are most useful to reason on?</div>
+				<br/>
+				<div class="fragment" style="text-align:left;">
+					When is an exploratory tool called for?  When is it not called for?
+				</div>
+			</section>
+		</section>
+		<section>
+			<section>
+				<h3>High-Throughput Computation</h3>
+				<img width=800 src="images/google_io1.jpg">
+				<br/>
+				600,000 cores running Random Forest on Google Compute Engine
+			</section>
+			<section>
+				<h3>The Center for Systems Analysis of the Cancer Regulome</h3>
+				Ilya Shmulevich (ISB) + Wei Zhang (MD Anderson Cancer Center)
+				<div style="height:500px">
+					<img style="position:absolute;
 								top:160px;
 								left:0px;"
 								width=300
 								src="images/cancer_cell_cover.jpg">
-						<img style="position:absolute;
+					<img style="position:absolute;
 								top:200px;
 								left:290px;
 								-ms-transform:rotate(1deg);
@@ -429,7 +425,7 @@
 								-o-transform:rotate(1deg);"
 								width=600
 								src="images/breast_cancer_article.png">
-						<img style="position:absolute;
+					<img style="position:absolute;
 								top:340px;
 								left:295px;
 								-ms-transform:rotate(-2deg);
@@ -438,12 +434,12 @@
 								-o-transform:rotate(-2deg);"
 								width=610
 								src="images/coad_cancer_article.png">
-						<img style="position:absolute;
+					<img style="position:absolute;
 								top:330px;
 								left:540px;"
 								height=40
 								src="images/nature_logo.png">
-						<img style="position:absolute;
+					<img style="position:absolute;
 								top:180px;
 								left:390px;
 								-ms-transform:rotate(4deg);
@@ -452,181 +448,183 @@
 								-o-transform:rotate(4deg);" 
 								width=650
 								src="images/fastbreak_article.png">
-						<img style="position:absolute;
+					<img style="position:absolute;
 								top:500px;
 								left:440px;"
 								height=160
 								src="images/jama_article.png">
-						<img style="position:absolute;
+					<img style="position:absolute;
 								top:560px;
 								left:30px;"
 								width=400
 								src="images/bernard_article.png"></div>
-					<br/>
-					<small>www.cancerregulome.org</small>
-				</section>
+				<br/>
+				<small>www.cancerregulome.org</small>
+			</section>
+		</section>
+		<section>
+			<section>
+				<h2>Resources</h2>
+				<table>
+					<tbody>
+						<tr>
+							<td>d3.js</td>
+							<td>d3js.org</td>
+						</tr>
+						<tr>
+							<td>Science.js</td>
+							<td>github.com/jasondavies/science.js/</td>
+						</tr>
+						<tr>
+							<td>CytoscapeWeb</td>
+							<td>cytoscapeweb.cytoscape.org/</td>
+						</tr>
+						<tr>
+							<td>Cytoscape.js</td>
+							<td>cytoscape.github.com/cytoscape.js/</td>
+						</tr>
+					</tbody>
+				</table>
 			</section>
 			<section>
-				<section>
-					<h2>Resources</h2>
-					<table>
-						<tbody>
-							<tr>
-								<td>d3.js</td>
-								<td>d3js.org</td>
-							</tr>
-							<tr>
-								<td>Science.js</td>
-								<td>github.com/jasondavies/science.js/</td>
-							</tr>
-							<tr>
-								<td>CytoscapeWeb</td>
-								<td>cytoscapeweb.cytoscape.org/</td>
-							</tr>
-							<tr>
-								<td>Cytoscape.js</td>
-								<td>cytoscape.github.com/cytoscape.js/</td>
-							</tr>
-						</tbody>
-					</table>
-				</section>
-				<section>
-					<h2>Projects @ ISB</h2>
-					<p>
-						Regulome Explorer
-						<br/>
-						<a href="http://explorer.cancerregulome.org" target="_blank">explorer.cancerregulome.org</a>
-						<br/><br/>
-						Pubcrawl
-						<br/>
-						<a href="http://explorer.cancerregulome.org/pubcrawl/" target="_blank">explorer.cancerregulome.org/pubcrawl/</a>
-						<br/><br/>
-						Genespot
-						<br/>
-						<a href="www.genespot.net" target="_blank">www.genespot.org</a>
-						<br/><br/>
-						Transcriptional Regulation & Epigenetic Landscape
-						<br/>
-						<a href="http://trel.systemsbiology.net" target="_blank">trel.systemsbiology.net</a>
-						<br/>
-					</p>
+				<h2>Projects @ ISB</h2>
+				<p>
+					Regulome Explorer
 					<br/>
-					Search 'codefor@systemsbiology.org' at code.google.com
-				</section>
-				<section>
-					<h3>Acknowledgements</h3>
-					<table style="width:100%;font-size:22px;line-height:23px;">
-						<col style="width:33%"/>
-						<col style="width:33%"/>
-						<col style="width:33%"/>
-						<tbody>
-							<tr>
-								<td>
-									<img height=90 src="images/isb_logo.png"></td>
-								<td>&nbsp;</td>
-								<td>
-									<img height=90 src="images/mdanderson_logo.png"></td>
-							</tr>
-							<tr>
-								<td>
-									<b>Ilya Shmulevich</b>
-								</td>
-								<td>&nbsp;</td>
-								<td>Wei Zhang</td>
-							</tr>
-							<tr>
-								<td>&nbsp;</td>
-								<td>&nbsp;</td>
-								<td>&nbsp;</td>
-							</tr>
-							<tr>
-								<td>Andrea Eakin</td>
-								<td>Hector Rovira</td>
-								<td>Da Yang</td>
-							</tr>
-							<tr>
-								<td>Jake Lin</td>
-								<td>Ryan Bressler</td>
-								<td>Yuexin Lin</td>
-							</tr>
-							<tr>
-								<td>Brady Bernard</td>
-								<td>Timo Erkkila</td>
-								<td>Yan Sun</td>
-
-							</tr>
-							<tr>
-								<td>Sheila Reynolds</td>
-								<td>Vesteinn Thorsson</td>
-								<td>&nbsp;</td>
-							</tr>
-							<tr>
-								<td>Lisa Iype</td>
-								<td>Kalle Leinonen</td>
-								<td>&nbsp;</td>
-							</tr>
-							<tr>
-								<td>Patrick May</td>
-								<td>Lesley Wilkerson</td>
-							</tr>
-						</tbody>
-					</table>
-					<br/>
-					<table>
-						<tbody>
-							<tr>
-								<td>
-									<img height=60 style="background:#FFFFFF" src="images/tcga_logo.png"></td>
-								<td>
-									<img height=90 src="images/nci_logo.png"></td>
-								<td>
-									<img height=60 src="images/nhgri_logo.png"></td>
-							</tr>
-						</tbody>
-					</table>
-
-				</section>
-				<section>
+					<a href="http://explorer.cancerregulome.org" target="_blank">explorer.cancerregulome.org</a>
 					<br/>
 					<br/>
+					Pubcrawl
 					<br/>
-					<code>dick.kreisberg@systemsbiology.org</code>
-				</section>
+					<a href="http://explorer.cancerregulome.org/pubcrawl/" target="_blank">explorer.cancerregulome.org/pubcrawl/</a>
+					<br/>
+					<br/>
+					Genespot
+					<br/>
+					<a href="www.genespot.net" target="_blank">www.genespot.org</a>
+					<br/>
+					<br/>
+					Transcriptional Regulation & Epigenetic Landscape
+					<br/>
+					<a href="http://trel.systemsbiology.net" target="_blank">trel.systemsbiology.net</a>
+					<br/>
+				</p>
+				<br/>
+				Search 'codefor@systemsbiology.org' at code.google.com
 			</section>
 			<section>
-				<section>
-					<h2>Questions?</h2>
-				</section>
-				<section>
-					<p>
-						<h3>Reveal.JS</h3>
-						lab.hakim.se/reveal-js/
-					</p>
-					<p>
-						<h3>JSFiddle</h3>
-						jsfiddle.net
-					</p>
-					<p>
-						<h3>NodeJS</h3>
-						nodejs.org
-					</p>
-					<p>
-						<h3>Circos</h3>
-						circos.ca
-					</p>
-				</section>
+				<h3>Acknowledgements</h3>
+				<table style="width:100%;font-size:22px;line-height:23px;">
+					<col style="width:33%"/>
+					<col style="width:33%"/>
+					<col style="width:33%"/>
+					<tbody>
+						<tr>
+							<td>
+								<img height=90 src="images/isb_logo.png"></td>
+							<td>&nbsp;</td>
+							<td>
+								<img height=90 src="images/mdanderson_logo.png"></td>
+						</tr>
+						<tr>
+							<td>
+								<b>Ilya Shmulevich</b>
+							</td>
+							<td>&nbsp;</td>
+							<td>Wei Zhang</td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>Andrea Eakin</td>
+							<td>Hector Rovira</td>
+							<td>Da Yang</td>
+						</tr>
+						<tr>
+							<td>Jake Lin</td>
+							<td>Ryan Bressler</td>
+							<td>Yuexin Lin</td>
+						</tr>
+						<tr>
+							<td>Brady Bernard</td>
+							<td>Timo Erkkila</td>
+							<td>Yan Sun</td>
+
+						</tr>
+						<tr>
+							<td>Sheila Reynolds</td>
+							<td>Vesteinn Thorsson</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>Lisa Iype</td>
+							<td>Kalle Leinonen</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>Patrick May</td>
+							<td>Lesley Wilkerson</td>
+						</tr>
+					</tbody>
+				</table>
+				<br/>
+				<table>
+					<tbody>
+						<tr>
+							<td>
+								<img height=60 style="background:#FFFFFF" src="images/tcga_logo.png"></td>
+							<td>
+								<img height=90 src="images/nci_logo.png"></td>
+							<td>
+								<img height=60 src="images/nhgri_logo.png"></td>
+						</tr>
+					</tbody>
+				</table>
 			</section>
-		</div>
-		<!-- Presentation progress bar -->
-		<div class="progress">
-			<span></span>
-		</div>
+			<section>
+				<br/>
+				<br/>
+				<br/>
+				<code>dick.kreisberg@systemsbiology.org</code>
+			</section>
+		</section>
+		<section>
+			<section>
+				<h2>Questions?</h2>
+			</section>
+			<section>
+				<p>
+					<h3>Reveal.JS</h3>
+					lab.hakim.se/reveal-js/
+				</p>
+				<p>
+					<h3>JSFiddle</h3>
+					jsfiddle.net
+				</p>
+				<p>
+					<h3>NodeJS</h3>
+					nodejs.org
+				</p>
+				<p>
+					<h3>Circos</h3>
+					circos.ca
+				</p>
+			</section>
+		</section>
 	</div>
+	<!-- Presentation progress bar -->
+	<div class="progress">
+		<span></span>
+	</div>
+</div>
 
-	<script src="lib/js/head.min.js"></script>
-	<script src="js/reveal.js"></script>
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
 
-	<script>		
+<script>		
 	// Full list of configuration options available here:
 	// https://github.com/hakimel/reveal.js#configuration
 	Reveal.initialize({
@@ -652,13 +650,13 @@
 	});
 	
 </script>
-	<script type="text/javascript" src="lib/js/underscore/underscore.js"></script>
-	<script type="text/javascript" src="lib/js/vq/vq.js"></script>
-	<script type="text/javascript" src="lib/js/vq/vq.circvis.js"></script>
-	<script type="text/javascript" src="lib/circvis/data/circvis_data.json"></script>
-	<script type="text/javascript" src="lib/circvis/js/circvis_demo.js"></script>
-	<script type="text/javascript" src="lib/circvis/js/circvis_configure.js"></script>
-	<script type="text/javascript">
+<script type="text/javascript" src="lib/js/underscore/underscore.js"></script>
+<script type="text/javascript" src="lib/js/vq/vq.js"></script>
+<script type="text/javascript" src="lib/js/vq/vq.circvis.js"></script>
+<script type="text/javascript" src="lib/circvis/data/circvis_data.json"></script>
+<script type="text/javascript" src="lib/circvis/js/circvis_demo.js"></script>
+<script type="text/javascript" src="lib/circvis/js/circvis_configure.js"></script>
+<script type="text/javascript">
       var circle;
     // circle = circvis.plot($('#wedge1').get(0));
 </script>
