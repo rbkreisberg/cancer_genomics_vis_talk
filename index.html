@@ -60,8 +60,6 @@
 					<br/>
 					Dick Kreisberg
 					<br/>
-					Institute for Systems Biology
-					<br/>
 					February 22, 2013
 					<br/>
 					<br/>
@@ -70,7 +68,7 @@
 			</section>
 			<section>
 				<a href="http://explorer.cancerregulome.org/all_pairs/index_local.html?dataset=brca_03feb13_seq_tumor_only&t_label=BRCA1&trans=true" target="_blank">
-					In Breast Cancer, which interchromosomal molecular features are most associated with TP53 mutations?
+					In Breast Cancer, which interchromosomal molecular features are most associated with BRCA1 mRNA expression?
 				</a>
 			</section>
 			<aside class="notes">
@@ -92,35 +90,23 @@
 
 				<aside class="notes"></aside>
 			</section>
-
 			<section>
 				<section>
-					<h2>
-						Why do we need tools that
-						<q>explore</q>
-						cancer data?
-					</h2>
-					<p>
-						<ul>
-							<li class="fragment">Lower the barrier to the data</li>
-							<li class="fragment">
-								Manage the three hurdles of data...
-								<br> <em>Scope</em>
-								, <em>Scale</em>
-								,
-								<em>Complexity</em>
-							</li>
-							<li class="fragment">Provide supporting data and context</li>
-							<li class="fragment">Distribute the effort across the research community</li>
-							<li class="fragment">Reduce the time to answer simple questions</li>
-						</ul>
-					</p>
-					<aside class="notes">
-					Barriers: Data is messy. Strange formats.  Different between tumors.
-					</aside>
+					<h3>Who am I?</h3>
+					A software engineer in the Shmulevich Lab at the Institute for Systems Biology in Seattle, Washington in the USA.
 				</section>
-				<section></section>
+				<section>
+					<h3>Who is the Shmulevich Lab?</h3>
+					We are a group of bioinformaticians and software engineers focused on the challenges of computational biology.
+				</section>
+				<section>
+					<h3>What is the Institute for Systems Biology?</h3>
+					It is a non-profit research institute dedicated to understanding biological complexity.
+					<br/>
+					<img class="fragment" src="images/isb/hood_obamaNMS.png">
+				</section>
 			</section>
+			
 			<article title="TCGA"></article>
 			<section>
 				<section>
@@ -183,6 +169,31 @@
 						<li class="fragment roll-in">nuanced</li>
 					</ul>
 				</section>
+				<section>
+					<h2>
+						Why do we need tools that
+						<q>explore</q>
+						cancer data?
+					</h2>
+					<p>
+						<ul>
+							<li class="fragment">Lower the barrier to the data</li>
+							<li class="fragment">
+								Manage the three hurdles of data...
+								<br> <em>Scope</em>
+								, <em>Scale</em>
+								,
+								<em>Complexity</em>
+							</li>
+							<li class="fragment">Provide supporting data and context</li>
+							<li class="fragment">Distribute the effort across the research community</li>
+							<li class="fragment">Reduce the time to answer simple questions</li>
+						</ul>
+					</p>
+					<aside class="notes">
+						Barriers: Data is messy. Strange formats.  Different between tumors.
+					</aside>
+				</section>
 			</section>
 			<article title="Multivariate Analysis"></article>
 			<section>
@@ -228,7 +239,8 @@
 					</ul>
 				</section>
 				<section>
-					<h2>Pairwise Edges</h2>
+					<h2>Pairwise Associations</h2>
+					Significantly associated features (according to corrected p-value) form a pair of connected nodes.
 				</section>
 			</section>
 			<section>
@@ -236,18 +248,26 @@
 					<h2>Random Forest</h2>
 					Decision Tree Ensemble Learning
 					<br>
-					<br/><br/>
-					RF-ACE: Random Forest with Artificial Contrast Ensembles<br/>
-					<small>developed by Timo Erkkila</small><br/>
+					<br/>
+					<br/>
+					RF-ACE: Random Forest with Artificial Contrast Ensembles
+					<br/>
+					<small>developed by Timo Erkkila</small>
+					<br/>
 					<small>http://rf-ace.googlecode.com</small>
-					<br/><br/>
-					<br/><br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
 					<small>
 						Breiman, Leo (2001). "Random Forests", <i>Machine Learning</i>
 						, <b>45</b>
 						(1):5-32.
 					</small>
-						<small>Tuv, Eugene, et al. "Feature selection with ensembles, artificial variables, and redundancy elimination." <i>The Journal of Machine Learning Research</i> <b>10</b> (2009): 1341-1366.</small>
+					<small>
+						Tuv, Eugene, et al. "Feature selection with ensembles, artificial variables, and redundancy elimination." <i>The Journal of Machine Learning Research</i> <b>10</b>
+						(2009): 1341-1366.
+					</small>
 				</section>
 				<section>
 					<h2>A Decision Tree</h2>
@@ -287,65 +307,95 @@
 			<section>
 				<section>
 					<h2>Colorectal Cancer Aggressiveness</h2>
-					A combined p-value approach to identifying molecular features associated with tumor aggresiveness.<br/>
+					A combined p-value approach to identifying molecular features associated with tumor aggresiveness.
+					<br/>
 					<small>Vesteinn Thorsson</small>
 				</section>
 			</section>
 			<section>
 				<section>
 					<h2>PubCrawl</h2>
-					Incorporating Semantic and Interaction Associations<br/>
+					Incorporating Semantic and Interaction Associations
+					<br/>
 					<small>Andrea Eakin, Brady Bernard</small>
 				</section>
-				<section>Normalized Google Distance</section>
+				<section>
+					<h3>Normalized Google Distance</h3>
+					A measure of semantic similarity.
+					<br/>
+					<img height="600" src="images/ngd/google_distance.png"></section>
 				<section>Protein Domain Interactions</section>
 			</section>
 			<section>
 				<section>
-					<h2>Into the Future</h2>
-					There are new dimensions of the data and computation to explore.
+					<h3>Challenges in (Interactive) Cancer Visualization</h3>
+					There are many challenges left!
 				</section>
 				<section>
-					<h3>Tumor Type (and Subtype)</h3>
+					<h3>Associations</h3>
+					<div class="fragment" style="text-align:left;">
+						Problems:
+						<br/>
+						Comparison and grouping of multiple cancer types (and subtypes) across all types of features
+						<br/>
+						Inclusion of functional, semantic, analytical and physical associations
+						<br/>
+						Highly connected (and confusing) networks
+					</div>
+					<br/>
+					<div class="fragment" style="text-align:left;">
+						Possible Solutions:
+						<br/>
+						Multigraphs
+						<br/>
+						Managed layout
+						<br/>
+						Automatic grouping based on scale
+						<br/>
+						Topological Data Analysis (identify the simplicial complexes)
+						<br/>
+						<br/>
+						<br/>
+						Lum, P. Y., et al. "Extracting insights from the shape of complex data using topology." Scientific Reports 3 (2013).
+					</div>
 				</section>
 				<section>
-					<h3>Unsupervised Clustering of Samples</h3>
-					Naive creation of Cohorts
+					<h3>Scale</h3>
+					<div class="fragment" style="text-align:left;">
+						Problems:<br/>
+						Tying together information at many scales
+						<br/>
+						Protein -> Pathway -> Hallmark -> Tumor -> Patient
+						<br/>
+					</div>
+					<br/>
+					<div class="fragment" style="text-align:left;">
+						Possible Solutions:
+						<br/>
+						???
+					</div>
 				</section>
+				<section>
+					<h3>Interpretation</h3>
+					<div class="fragment" style="text-align:left;">
+						How best to convey the information to the cancer biologist?
+					</div>
+					<br>
+					<div class="fragment" style="text-align:left;">
+						Which visual abstractions are most useful to reason on?
+					</div>
+					<br/>
+					<div class="fragment" style="text-align:left;">
+						When is an exploratory tool called for?  When is it not called for?
+					</div>
+					</section>
+			</section>
+			<section>
 				<section>
 					<h3>High-Throughput Computation</h3>
 					<img width=800 src="images/google_io1.jpg">
 					<br/>
 					600,000 cores running Random Forest on Google Compute Engine
-				</section>
-			</section>
-			<section>
-				<section></section>
-				<section></section>
-			</section>
-			<section>
-				<section>
-					<h2>Resources</h2>
-					<table>
-						<tbody>
-							<tr>
-								<td>d3.js</td>
-								<td>d3js.org</td>
-							</tr>
-							<tr>
-								<td>Science.js</td>
-								<td>github.com/jasondavies/science.js/</td>
-							</tr>
-							<tr>
-								<td>CytoscapeWeb</td>
-								<td>http://cytoscapeweb.cytoscape.org/</td>
-							</tr>
-							<tr>
-								<td>Cytoscape.js</td>
-								<td>http://cytoscape.github.com/cytoscape.js/</td>
-							</tr>
-						</tbody>
-					</table>
 				</section>
 				<section>
 					<h3>The Center for Systems Analysis of the Cancer Regulome</h3>
@@ -401,25 +451,49 @@
 					<br/>
 					<small>www.cancerregulome.org</small>
 				</section>
+			</section>
+			<section>
+				<section>
+					<h2>Resources</h2>
+					<table>
+						<tbody>
+							<tr>
+								<td>d3.js</td>
+								<td>d3js.org</td>
+							</tr>
+							<tr>
+								<td>Science.js</td>
+								<td>github.com/jasondavies/science.js/</td>
+							</tr>
+							<tr>
+								<td>CytoscapeWeb</td>
+								<td>http://cytoscapeweb.cytoscape.org/</td>
+							</tr>
+							<tr>
+								<td>Cytoscape.js</td>
+								<td>http://cytoscape.github.com/cytoscape.js/</td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
 				<section>
 					<h2>Projects @ ISB</h2>
 					<p>
 						Regulome Explorer
 						<br/>
 						<a href="http://explorer.cancerregulome.org" target="_blank">explorer.cancerregulome.org</a>
-						<br/>
+						<br/><br/>
 						Pubcrawl
 						<br/>
-						<a href="pubcrawl.systemsbiology.net" target="_blank">pubcrawl.systemsbiology.net</a>
-						<br/>
+						<a href="http://explorer.cancerregulome.org/pubcrawl/" target="_blank">explorer.cancerregulome.org/pubcrawl/</a>
+						<br/><br/>
 						Genespot
 						<br/>
 						<a href="www.genespot.net" target="_blank">www.genespot.org</a>
-						<br/>
+						<br/><br/>
 						Transcriptional Regulation & Epigenetic Landscape
 						<br/>
 						<a href="http://trel.systemsbiology.net" target="_blank">trel.systemsbiology.net</a>
-						<br/>
 						<br/>
 					</p>
 					<br/>
@@ -440,7 +514,8 @@
 									<img height=90 src="images/mdanderson_logo.png"></td>
 							</tr>
 							<tr>
-								<td> <b>Ilya Shmulevich</b>
+								<td>
+									<b>Ilya Shmulevich</b>
 								</td>
 								<td>&nbsp;</td>
 								<td>Wei Zhang</td>
