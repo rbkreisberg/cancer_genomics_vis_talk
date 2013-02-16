@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.0 r9654"
-   sodipodi:docname="google_distance.svg">
+   sodipodi:docname="google_distance3.svg">
   <defs
      id="defs4">
     <filter
@@ -43,15 +43,6 @@
          inkscape:collect="always"
          stdDeviation="5.9662579e-06"
          id="feGaussianBlur3809-3" />
-    </filter>
-    <filter
-       inkscape:collect="always"
-       id="filter3807-3"
-       color-interpolation-filters="sRGB">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="5.9662579e-06"
-         id="feGaussianBlur3809-8" />
     </filter>
   </defs>
   <sodipodi:namedview
@@ -166,94 +157,10 @@
        inkscape:connection-end="#path3769-6"
        inkscape:connection-end-point="d4" />
     <path
-       sodipodi:type="arc"
-       style="fill:#daca48;fill-opacity:0.91372549;stroke:none"
-       id="path4819"
-       sodipodi:cx="-55.714287"
-       sodipodi:cy="441.1293"
-       sodipodi:rx="158.57143"
-       sodipodi:ry="144.28572"
-       d="m 102.85714,441.1293 c 0,79.68681 -70.994846,144.28572 -158.571427,144.28572 -87.576583,0 -158.571423,-64.59891 -158.571423,-144.28572 0,-79.6868 70.99484,-144.28572 158.571423,-144.28572 85.858228,0 156.121077,62.17805 158.510027,140.27106"
-       transform="matrix(0.66461517,0,0,0.66461517,-306.12318,148.77462)"
-       sodipodi:start="0"
-       sodipodi:end="6.2553573"
-       sodipodi:open="true" />
-    <path
-       style="fill:#ffde94;fill-opacity:1;stroke:none;filter:url(#filter3807-9)"
-       d="m -442.76658,225.92487 c -16.33,0 -32.0822,2.26639 -46.9063,6.4375 -27.4611,36.14668 -43.15617,77.93444 -43.15617,122.46875 0,60.56573 29.02277,116.06086 77.21867,159.18746 4.2321,0.3084 8.5244,0.5 12.8438,0.5 87.5766,0 158.5625,-64.6257 158.5625,-144.31246 l -0.062,-4 c -2.389,-78.09301 -72.6418,-140.28125 -158.5,-140.28125 z"
-       id="path3759-4"
-       inkscape:connector-curvature="0"
-       transform="matrix(0.66461517,0,0,0.66461517,-47.912115,195.66509)" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#ff9094;fill-opacity:1;stroke:none"
-       id="path4906"
-       sodipodi:cx="461.42856"
-       sodipodi:cy="553.98645"
-       sodipodi:rx="110"
-       sodipodi:ry="114.28571"
-       d="m 571.42856,553.98645 c 0,63.11826 -49.24868,114.28571 -110,114.28571 -60.75132,0 -110,-51.16745 -110,-114.28571 0,-63.11826 49.24868,-114.28571 110,-114.28571 59.55931,0 108.30021,49.24993 109.95741,111.10578"
-       transform="matrix(0.66461517,0,0,0.66461517,-328.90998,230.42734)"
-       sodipodi:start="0"
-       sodipodi:end="6.2553573"
-       sodipodi:open="true" />
-    <path
-       style="fill:#ffde94;fill-opacity:1;stroke:none;filter:url(#filter3807-3)"
-       d="m 34.353933,490.40255 c -53.19024,0 -97.55998,39.2176 -107.78125,91.3437 57.00022,-18.4572 105.72245,-48.4741 140.875,-86.0937 -10.45,-3.4212 -21.57137,-5.25 -33.09375,-5.25 z"
-       id="path3759-3"
-       inkscape:connector-curvature="0"
-       transform="matrix(0.66461517,0,0,0.66461517,-47.912115,195.66509)" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#ff9094;fill-opacity:1;stroke:none"
-       id="path4906-8"
-       sodipodi:cx="461.42856"
-       sodipodi:cy="553.98645"
-       sodipodi:rx="110"
-       sodipodi:ry="114.28571"
-       d="m 571.42856,553.98645 c 0,63.11826 -49.24868,114.28571 -110,114.28571 -60.75132,0 -110,-51.16745 -110,-114.28571 0,-63.11826 49.24868,-114.28571 110,-114.28571 59.55931,0 108.30021,49.24993 109.95741,111.10578"
-       transform="matrix(0.25678314,0,0,0.24715377,145.0599,566.13483)"
-       sodipodi:start="0"
-       sodipodi:end="6.2553573"
-       sodipodi:open="true" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#d8cd4f;fill-opacity:0.99215896;stroke:none"
-       id="path4906-8-1"
-       sodipodi:cx="461.42856"
-       sodipodi:cy="553.98645"
-       sodipodi:rx="110"
-       sodipodi:ry="114.28571"
-       d="m 571.42856,553.98645 c 0,63.11826 -49.24868,114.28571 -110,114.28571 -60.75132,0 -110,-51.16745 -110,-114.28571 0,-63.11826 49.24868,-114.28571 110,-114.28571 59.55931,0 108.30021,49.24993 109.95741,111.10578"
-       transform="matrix(0.25678314,0,0,0.24715377,-274.59711,799.69959)"
-       sodipodi:start="0"
-       sodipodi:end="6.2553573"
-       sodipodi:open="true" />
-    <path
        style="fill:#ffde94;fill-opacity:1;stroke:none"
        d="m -42.436887,304.46072 c -22.353421,16.00822 -36.67845,40.60323 -36.67845,68.18537 0,48.24172 43.792484,87.35532 97.802276,87.35532 6.620396,0 13.084855,-0.6038 19.336146,-1.72381 1.643095,-8.11881 2.513076,-16.42058 2.513076,-24.88153 l -0.103846,-4.56923 C 38.553401,378.4183 6.5615073,333.79682 -42.436887,304.46072 z"
        id="path3769-3"
        inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:3.45599866;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m -163.87674,866.19204 4.67023,42.34903"
-       id="path5000"
-       inkscape:connector-type="polyline"
-       inkscape:connector-curvature="0"
-       inkscape:connection-start="#path3759-0"
-       inkscape:connection-start-point="d4"
-       inkscape:connection-end="#path4906-8-1"
-       inkscape:connection-end-point="d4" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:3.45599866;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="M -140.01851,829.65795 236.5887,711.5118"
-       id="path5002"
-       inkscape:connector-type="polyline"
-       inkscape:connector-curvature="0"
-       inkscape:connection-start="#path3759-0"
-       inkscape:connection-start-point="d4"
-       inkscape:connection-end="#path4906-8"
-       inkscape:connection-end-point="d4" />
     <text
        xml:space="preserve"
        style="font-size:26.58460617px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -268,17 +175,6 @@
     <text
        xml:space="preserve"
        style="font-size:26.58460617px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="-63.063915"
-       y="636.59314"
-       id="text5008"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan5010"
-         x="-63.063915"
-         y="636.59314">CLSPN</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:26.58460617px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        x="48.971222"
        y="347.9603"
        id="text5012"
@@ -287,17 +183,6 @@
          id="tspan5014"
          x="48.971222"
          y="347.9603">hsa-mir-3200</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:26.58460617px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="-488.41766"
-       y="458.0965"
-       id="text5016"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan5018"
-         x="-488.41766"
-         y="458.0965">GATA3</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:26.58460617px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -312,17 +197,6 @@
     <text
        xml:space="preserve"
        style="font-size:26.58460617px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="-278.73801"
-       y="943.02496"
-       id="text5016-3"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan5018-9"
-         x="-278.73801"
-         y="943.02496">GATA3</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:26.58460617px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        x="32.962498"
        y="897.80176"
        id="text5012-9"
@@ -331,16 +205,5 @@
          id="tspan5014-7"
          x="32.962498"
          y="897.80176">hsa-mir-3200</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:26.58460617px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="217.37669"
-       y="767.25842"
-       id="text5008-0"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan5010-3"
-         x="217.37669"
-         y="767.25842">CLSPN</tspan></text>
   </g>
 </svg>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="940"
+   height="802.92175"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.0 r9654"
+   sodipodi:docname="google_distance1.svg">
+  <defs
+     id="defs4">
+    <filter
+       inkscape:collect="always"
+       id="filter3807"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.9662579e-06"
+         id="feGaussianBlur3809" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter3807-6">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.9662579e-06"
+         id="feGaussianBlur3809-7" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="86.993728"
+     inkscape:cy="413.34831"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="20"
+     fit-margin-left="20"
+     fit-margin-right="20"
+     fit-margin-bottom="20"
+     inkscape:window-width="1896"
+     inkscape:window-height="987"
+     inkscape:window-x="621"
+     inkscape:window-y="143"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(612.85713,-181.94384)">
+    <path
+       sodipodi:type="arc"
+       style="fill:#b6ea96;fill-opacity:0.91304351;stroke:none"
+       id="path2985"
+       sodipodi:cx="367.14285"
+       sodipodi:cy="570.93359"
+       sodipodi:rx="264.28571"
+       sodipodi:ry="487.14285"
+       d="m 631.42856,570.93359 c 0,269.04157 -118.32474,487.14281 -264.28571,487.14281 -145.96096,0 -264.2857,-218.10124 -264.2857,-487.14281 0,-269.04156 118.32474,-487.142849 264.2857,-487.142849 143.09705,0 260.20179,209.927849 264.18338,473.588389"
+       sodipodi:start="0"
+       sodipodi:end="6.2553573"
+       sodipodi:open="true"
+       transform="matrix(-0.01723362,1.0021754,-0.92370536,-0.01281766,390.84449,106.25604)" />
+    <text
+       xml:space="preserve"
+       style="font-size:26.58460617px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-338.44388"
+       y="253.25264"
+       id="text3755"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3757"
+         x="-338.44388"
+         y="253.25264">Corpus of Medical Literature</tspan></text>
+  </g>
+</svg>
