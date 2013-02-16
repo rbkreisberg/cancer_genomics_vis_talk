@@ -81,10 +81,12 @@
 					<ul>
 						<li>Introduction</li>
 						<li>The Cancer Genome Atlas</li>
-						<li>Multivariate Analysis of Heterogeneous Data</li>
+						<li>Heterogeneous Cancer Data</li>
+						<li>Multivariate Analysis</li>
+						<li>Colorectal Cancer Aggressiveness</li>
 						<li>Regulome Explorer</li>
 						<li>Pubcrawl</li>
-						<li>Into the Future</li>
+						<li>Challenges in Cancer Genomics Visualization</li>
 					</ul>
 				</p>
 
@@ -173,47 +175,8 @@
 						<li class="fragment roll-in">nuanced</li>
 					</ul>
 				</section>
-				<section>
-					<h2>
-						Why do we need tools that
-						<q>explore</q>
-						cancer data?
-					</h2>
-					<p>
-						<ul>
-							<li class="fragment">Lower the barrier to the data</li>
-							<li class="fragment">
-								Manage the three hurdles of data...
-								<br> <em>Scope</em>
-								, <em>Scale</em>
-								,
-								<em>Complexity</em>
-							</li>
-							<li class="fragment">Provide supporting data and context</li>
-							<li class="fragment">Distribute the effort across the research community</li>
-							<li class="fragment">Reduce the time to answer simple questions</li>
-						</ul>
-					</p>
-					<aside class="notes">
-						Barriers: Data is messy. Strange formats.  Different between tumors.
-					</aside>
-				</section>
 			</section>
-			<article title="Multivariate Analysis"></article>
 			<section>
-				<section>
-					<h2>Multivariate Analysis</h2>
-					<p>
-						There are many methods being used in cancer research. In general, we see X types of approaches.
-						<ol>
-							<li class="fragment roll-in">Statistical</li>
-							<!-- <li class="fragment roll-in">Matrix Decomposition</li>
-						-->
-						<li class="fragment roll-in">Information Theoretic</li>
-						<li class="fragment roll-in">Machine Learning</li>
-					</ol>
-				</p>
-			</section>
 			<section>
 				<h3>Heterogeneous Feature Matrix</h3>
 				<img height=600 src="images/feature_matrix.png"></section>
@@ -246,6 +209,73 @@
 			<section>
 				<h2>Pairwise Associations</h2>
 				Significantly associated features (according to corrected p-value) form a pair of connected nodes.
+			</section>
+				<section>
+					<h2>
+						Why do we need tools that
+						<q>explore</q>
+						cancer data?
+					</h2>
+					<p>
+						<ul>
+							<li class="fragment">Lower the barrier to the data</li>
+							<li class="fragment">
+								Manage the three hurdles of data...
+								<br> <em>Scope</em>
+								, <em>Scale</em>
+								,
+								<em>Complexity</em>
+							</li>
+							<li class="fragment">Provide supporting data and context</li>
+							<li class="fragment">Distribute the effort across the research community</li>
+							<li class="fragment">Reduce the time to answer simple questions</li>
+						</ul>
+					</p>
+					<aside class="notes">
+						Barriers: Data is messy. Strange formats.  Different between tumors.
+					</aside>
+				</section>
+			</section>
+		
+		<section>
+				<h2>Multivariate Analysis</h2>
+					<p>
+					There are many methods being used in cancer research. In general, we see 3 types of approaches.
+					<ol>
+						<li class="fragment roll-in">Statistical</li>
+						<li class="fragment roll-in">Information Theoretic</li>
+						<li class="fragment roll-in">Machine Learning</li>
+					</ol>
+				</p>
+		</section>
+		<section>
+			<section>
+				<h2>Colorectal Cancer Aggressiveness</h2>
+				A combined p-value approach to identifying molecular features associated with tumor aggresiveness.
+				<br/>
+				<small>Vesteinn Thorsson</small>
+			</section>
+			<section>
+				<h3>Clinical variables contributing to tumor aggressiveness</h3>
+				<img src="images/crc_agg/aggressiveness_factors.png">
+			</section>
+			<aside class="notes">
+				These are the clinical variable we will focus on: those that correlate with tumor aggressivess.
+Histological Type. Mucinous (mucin producing ~ extracellular mucin) or non-mucinous adenocarcinoma
+H&E stain, HE stain or hematoxylin and eosin stain is a popular staining method in histology. It is the most widely used stain in medical diagnosis; for example when a pathologist looks at a biopsy of a suspected cancer, the histological section is likely to be stained with H&E and termed H&E section, H+E section, or HE section.
+			</aside>
+			<section>
+				<h3>Tumor aggresiveness as a composite of six p-value associations</h3>
+				Fisher’s Product Method  for combining statistical tests (Fisher, 1948) 
+				<br/>
+				<img src="images/crc_agg/pvalue_equation.png">
+				Follows &#x03C7;<sup>2</sup>-distribution with 2 x 6=12 degrees of freedom 
+				<br/>
+				Weights w<sub>i</sub> used to equalize contributions of the 6 clinical variables
+				<br/>
+			</section>
+			<section>
+
 			</section>
 		</section>
 		<section>
@@ -309,14 +339,7 @@
 				(scatterplot, violinplot, cubbyhole)
 			</section>
 		</section>
-		<section>
-			<section>
-				<h2>Colorectal Cancer Aggressiveness</h2>
-				A combined p-value approach to identifying molecular features associated with tumor aggresiveness.
-				<br/>
-				<small>Vesteinn Thorsson</small>
-			</section>
-		</section>
+		
 		<section>
 			<section>
 				<h2>PubCrawl</h2>
@@ -328,8 +351,16 @@
 				<h3>Normalized Google Distance</h3>
 				A measure of semantic similarity.
 				<br/>
-				<img height="600" src="images/ngd/google_distance.png"></section>
-			<section>Protein Domain Interactions</section>
+				<div style="position:relative;height:600px;">
+				<img class="fragment" style="position:absolute;top:0px;left:140px;" height="700" src="images/ngd/google_distance0.png">
+				<img class="fragment" style="position:absolute;top:0px;left:140px;" height="700" src="images/ngd/google_distance1.png">
+				<img class="fragment" style="position:absolute;top:0px;left:140px;" height="700" src="images/ngd/google_distance2.png">
+				<img class="fragment" style="position:absolute;top:0px;left:140px;" height="700" src="images/ngd/google_distance3.png">
+				<img class="fragment" style="position:absolute;top:0px;left:140px;" height="700" src="images/ngd/google_distance.png">
+			</div>
+			</section>
+			<section>Protein Domain Interactions
+			</section>
 		</section>
 		<section>
 			<section>
