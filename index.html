@@ -55,7 +55,7 @@
 		<!-- Any section element inside of this container is displayed as a slide -->
 		<div class="slides">
 			<section>
-				<h2>Visualizing Multivariate Analysis of Cancer Data</h2>
+				<h2 style="line-height:1.1em">Visualizing Multivariate Analysis of Cancer Data</h2>
 				<p style="text-align:right;">
 					<br/>
 					Dick Kreisberg
@@ -67,9 +67,18 @@
 				</p>
 			</section>
 			<section>
-				<a href="http://explorer.cancerregulome.org/all_pairs/index_local.html?dataset=brca_03feb13_seq_tumor_only&t_label=BRCA1&trans=true" target="_blank">
-					In Breast Cancer, which interchromosomal molecular features are most associated with BRCA1 mRNA expression?
-				</a>
+				<h3>
+					<a href="http://explorer.cancerregulome.org/all_pairs/index_local.html?dataset=brca_03feb13_seq_tumor_only&t_label=BRCA1&trans=true" target="_blank">
+						In
+						<span style="color:#CCFFFF">Breast Cancer</span>
+						, which
+						<span style="color:#FFF"> <em>inter-chromosomal</em>
+						</span>
+						molecular features are most associated with
+						<span style="color:#FFFFCC">BRCA1 mRNA expression</span>
+						?
+					</a>
+				</h3>
 			</section>
 			<aside class="notes">
 				Chr 22, mir-hsa-3200, associated with ERBB2/Her2 gene in paired tissues
@@ -318,16 +327,20 @@ H&E stain, HE stain or hematoxylin and eosin stain is a popular staining method 
 						<li>Edges Between Genomic Features</li>
 						<li>Edges With Non-Genomic Features</li>
 						<li>Managing Scale</li>
-						<li>Analytical Insight and Oversight<br/>
-						(scatterplot, violinplot, cubbyhole)</li>
+						<li>
+							Analytical Insight and Oversight
+							<br/>
+							(scatterplot, violinplot, cubbyhole)
+						</li>
 					</ul>
-					<br/><br/>
+					<br/>
+					<br/>
+					<h3>
+						<a href="http://explorer.cancerregulome.org/all_pairs/index.html?dataset=brca_manuscript_rerun_nov12d_pw&t_type=CNVR&p_type=GEXP&trans=true" target="_blank">Go to the tool!</a>
+					</h3>
 
-					<h3><a href="http://explorer.cancerregulome.org/all_pairs/index.html?dataset=brca_manuscript_rerun_nov12d_pw&t_type=CNVR&p_type=GEXP&trans=true" target="_blank">Go to the tool!</a></h3>
-				
 				</section>
 			</section>
-
 			<section>
 				<section>
 					<h2>PubCrawl</h2>
@@ -348,13 +361,23 @@ H&E stain, HE stain or hematoxylin and eosin stain is a popular staining method 
 				</section>
 				<section>
 					<h3>Protein Domain Interactions</h3>
-				<img height=550 src="images/domine.png">
-				<small>Raghavachari, Balaji, et al. "DOMINE: a database of protein domain interactions." <i>Nucleic acids research</i> 36.suppl 1 (2008): D656-D661.</small>
+					<img height=550 src="images/domine.png">
+					<small>
+						Raghavachari, Balaji, et al. "DOMINE: a database of protein domain interactions."
+						<i>Nucleic acids research</i>
+						36.suppl 1 (2008): D656-D661.
+					</small>
 				</section>
 				<section>
-					<a href="http://explorer.cancerregulome.org/pubcrawl/?term=myc&type=search&alias=false&dataset=gbm_1031" target="_blank">
-						Semantic and Domain Associations for MYC combined with GBM analysis
-					</a>
+					<h2>
+						<a href="http://explorer.cancerregulome.org/pubcrawl/?term=myc&type=search&alias=false&dataset=gbm_1031" target="_blank">
+							Semantic and Domain Associations for
+							<span style="color:#FFFFCC">MYC</span>
+							combined with
+							<span style="color:#CCFFFF">GBM</span>
+							statistical and multivariate analysis.
+						</a>
+					</h2>
 				</section>
 			</section>
 			<section>
@@ -364,31 +387,28 @@ H&E stain, HE stain or hematoxylin and eosin stain is a popular staining method 
 				</section>
 				<section>
 					<h3>Associations</h3>
-					<div class="fragment" style="text-align:left;">
-						<em>Problems:</em>
+					<div class="fragment" style="text-align:left;"> <em>Problems:</em>
 						<ul>
-						<li>Comparison and grouping of multiple cancer types (and subtypes) across all types of features
-						</li><li>
-						Inclusion of functional, semantic, analytical and physical associations
-						</li><li>
-						Highly connected (and confusing) networks
-					</li>
-				</ul>
+							<li>
+								Comparison and grouping of multiple cancer types (and subtypes) across all types of features
+							</li>
+							<li>
+								Inclusion of functional, semantic, analytical and physical associations
+							</li>
+							<li>Highly connected (and confusing) networks</li>
+						</ul>
 					</div>
 					<br/>
 					<div class="fragment" style="text-align:left;">
 						<em>Possible Solutions:</em>
 						<ul>
+							<li>Multigraphs</li>
+							<li>Managed layout</li>
+							<li>Automatic grouping based on scale</li>
 							<li>
-						Multigraphs
-						</li><li>
-						Managed layout
-						</li><li>
-						Automatic grouping based on scale
-						</li><li>
-						Topological Data Analysis (identify the simplicial complexes)
-						</li>
-					</ul>
+								Topological Data Analysis (identify the simplicial complexes)
+							</li>
+						</ul>
 						<br/>
 						<br/>
 						Lum, P. Y., et al. "Extracting insights from the shape of complex data using topology." Scientific Reports 3 (2013).
@@ -430,7 +450,12 @@ H&E stain, HE stain or hematoxylin and eosin stain is a popular staining method 
 					</div>
 				</section>
 				<section>
-					<img src="images/trapped.png">
+					<h3>Scared?</h3>
+					<div class="fragment">
+						<img src="images/trapped.png">
+						<br/>
+						Don't be
+					</div>
 				</section>
 			</section>
 			<section>
@@ -497,33 +522,6 @@ H&E stain, HE stain or hematoxylin and eosin stain is a popular staining method 
 			</section>
 			<section>
 				<section>
-					<h2>Resources</h2>
-					<table>
-						<tbody>
-							<tr>
-								<td>d3.js</td>
-								<td>d3js.org</td>
-							</tr>
-							<tr>
-								<td>Science.js</td>
-								<td>github.com/jasondavies/science.js/</td>
-							</tr>
-							<tr>
-								<td>CytoscapeWeb</td>
-								<td>cytoscapeweb.cytoscape.org/</td>
-							</tr>
-							<tr>
-								<td>Cytoscape.js</td>
-								<td>cytoscape.github.com/cytoscape.js/</td>
-							</tr>
-							<tr>
-						<td>Circos</td>
-						<td>circos.ca</td>
-						</tr>
-						</tbody>
-					</table>
-				</section>
-				<section>
 					<h2>Projects @ ISB</h2>
 					<p>
 						Regulome Explorer
@@ -551,7 +549,7 @@ H&E stain, HE stain or hematoxylin and eosin stain is a popular staining method 
 				</section>
 				<section>
 					<h3>Acknowledgements</h3>
-					<img style="position:absolute;top:5px;left:0px;" class="fragment" src="images/lab_photo.png">
+					<img style="position:absolute;top:15px;left:0px;" class="fragment" src="images/lab_photo.png">
 					<table style="width:100%;font-size:22px;line-height:23px;">
 						<col style="width:33%"/>
 						<col style="width:33%"/>
@@ -638,6 +636,33 @@ H&E stain, HE stain or hematoxylin and eosin stain is a popular staining method 
 					<br/>
 					Are there any questions?
 				</aside>
+				<section>
+					<h2>Resources</h2>
+					<table>
+						<tbody>
+							<tr>
+								<td>d3.js</td>
+								<td>d3js.org</td>
+							</tr>
+							<tr>
+								<td>Science.js</td>
+								<td>github.com/jasondavies/science.js/</td>
+							</tr>
+							<tr>
+								<td>CytoscapeWeb</td>
+								<td>cytoscapeweb.cytoscape.org/</td>
+							</tr>
+							<tr>
+								<td>Cytoscape.js</td>
+								<td>cytoscape.github.com/cytoscape.js/</td>
+							</tr>
+							<tr>
+								<td>Circos</td>
+								<td>circos.ca</td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
 				<section>
 					<p>
 						<h3>Reveal.JS</h3>
